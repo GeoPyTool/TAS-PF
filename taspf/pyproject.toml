@@ -2,7 +2,7 @@
 [tool.briefcase]
 project_name = "TAS-PF"
 bundle = "com.geopytool"
-version = "0.0.1"
+version = "1.0.0"
 url = "https://github.com/GeoPyTool/TAS-PF"
 license = "GNU General Public License v3 or later (GPLv3+)"
 author = "Freddy"
