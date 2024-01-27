@@ -1,0 +1,134 @@
+# This project was generated with 0.3.16 using template: https://github.com/beeware/briefcase-template@v0.3.16
+[tool.briefcase]
+project_name = "TAS-PF"
+bundle = "com.geopytool"
+version = "0.0.1"
+url = "https://github.com/GeoPyTool/TAS-PF"
+license = "GNU General Public License v3 or later (GPLv3+)"
+author = "Freddy"
+author_email = "wedonotuse@outlook.com"
+
+[tool.briefcase.app.taspf]
+formal_name = "TAS-PF"
+description = "TAS Diagram extended with Probabilistic Field"
+long_description = """More details about the app should go here.
+"""
+icon = "src/taspf/resources/taspf"
+sources = [
+    "src/taspf",
+]
+test_sources = [
+    "tests",
+]
+requires = [
+    "PySide6-Essentials~=6.5",
+    # "PySide6-Addons~=6.5",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "scipy",
+    "toga",
+    "toga-chart",
+    "scikit-learn==1.2.0",
+]
+test_requires = [
+    "pytest",
+]
+
+[tool.briefcase.app.taspf.macOS]
+universal_build = true
+requires = [
+    "std-nslog~=1.0.0"
+]
+
+[tool.briefcase.app.taspf.linux]
+requires = [
+]
+
+[tool.briefcase.app.taspf.linux.system.debian]
+system_requires = [
+]
+
+system_runtime_requires = [
+    # Derived from https://doc.qt.io/qt-6/linux-requirements.html
+    "libxrender1",
+    "libxcb-render0",
+    "libxcb-render-util0",
+    "libxcb-shape0",
+    "libxcb-randr0",
+    "libxcb-xfixes0",
+    "libxcb-xkb1",
+    "libxcb-sync1",
+    "libxcb-shm0",
+    "libxcb-icccm4",
+    "libxcb-keysyms1",
+    "libxcb-image0",
+    "libxcb-util1",
+    "libxkbcommon0",
+    "libxkbcommon-x11-0",
+    "libfontconfig1",
+    "libfreetype6",
+    "libxext6",
+    "libx11-6",
+    "libxcb1",
+    "libx11-xcb1",
+    "libsm6",
+    "libice6",
+    "libglib2.0-0",
+    "libgl1",
+    "libegl1-mesa",
+    "libdbus-1-3",
+    "libgssapi-krb5-2",
+]
+
+[tool.briefcase.app.taspf.linux.system.rhel]
+system_requires = [
+]
+
+system_runtime_requires = [
+    "qt6-qtbase-gui",
+]
+
+[tool.briefcase.app.taspf.linux.system.suse]
+system_requires = [
+]
+
+system_runtime_requires = [
+    "libQt6Gui6",
+]
+
+[tool.briefcase.app.taspf.linux.system.arch]
+system_requires = [
+    "qt6-base",
+]
+
+system_runtime_requires = [
+    "qt6-base",
+]
+
+[tool.briefcase.app.taspf.linux.appimage]
+manylinux = "manylinux_2_28"
+
+system_requires = [
+# ?? FIXME
+]
+linuxdeploy_plugins = []
+
+[tool.briefcase.app.taspf.linux.flatpak]
+flatpak_runtime = "org.kde.Platform"
+flatpak_runtime_version = "6.4"
+flatpak_sdk = "org.kde.Sdk"
+
+[tool.briefcase.app.taspf.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.taspf.iOS]
+supported = false
+
+[tool.briefcase.app.taspf.android]
+supported = false
+
+# Web deployments
+[tool.briefcase.app.taspf.web]
+supported = false
