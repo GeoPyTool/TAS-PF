@@ -2,7 +2,19 @@
 
 TAS Diagram extended with Probabilistic Field.
 
+## Explaination
+
+This is a TAS Diagram extended with Probabilistic Field. As the wikipedia says, the TAS stands for Total Alkali Silica. The TAS can be used as a plotting diagram and a classification to assign rock type names to unlabeled igneous rocks.
+
+The classical version of TAS is based upon the relationships between the combined alkali and silica contents and can be quite simple to use for rocks that have been chemically analyzed. 
+
+This TAS-PF is an extended version of TAS, the PF stands for Probabilistic Field, which is generate from the GEOROC database. 
+
+Based on the probability field obtained from the worldwide igneous data on Georoc, the probabilities are used on a case-by-case basis to determine the rock class of the samples to be classified. This approach complements the conclusions obtained from the classification boundaries in the traditional illustrations and does not perturb the classification boundaries as they may occur with the addition of data as in the traditional illustrations, and the probability field only becomes more and more stable as the size of the data grows. Thus, this project achieves both the inheritance of traditional graphical boundaries for forward compatibility and the introduction of probability fields to support data updating for backward compatibility.
+
 ## Installation
+
+For Windows users, this TAS-PF can be installed quite easy.
 
 ### Download and Run
 
@@ -63,7 +75,7 @@ Take Ubuntu 22.04 for example, some system packages should be installed with com
 
 ```Bash
 sudo apt update
-sudo apt install build-essential git pkg-config python3-dev python3-venv libgirepository1.0-dev libcairo2-dev gir1.2-webkit2-4.0 libcanberra-gtk3-module
+sudo apt install build-essential git pkg-config python3-dev python3-venv libgirepository1.0-dev libcairo2-dev gir1.2-webkit2-4.0 libcanberra-gtk3-module  libxkbcommon0 qtwayland5 libegl1-mesa
 ```
 
 With no installations above, you may encounter some problems on using `pip install pycairo` and may not be able to run the beeware and related requirements.
@@ -76,9 +88,6 @@ cd TAS-PF
 pip install -r requirement.txt
 ```
 
-The progress above may be like the picture below.
-
-![](./images/requirements_installed.jpg)
 
 If the requirements get installed, you may see some warnings which will not be a big problem at all.
 
@@ -91,9 +100,16 @@ cd taspf
 briefcase run
 ```
 
-The first time you run the commands above, you may see the second pard of requirements installation, which may take some time,. This step will only happen on the first time you run it, next time when you run it, the downloaded requirements will be ready and there will be no need to take these time then.
+The first time you run the commands above, you may see the second pard of requirements installation, which may take some time. 
 
 ![](./images/beeware_run.jpg)
+
+
+This step will only happen on the first time you run it, next time when you run it, the downloaded requirements will be ready and there will be no need to take these time then.
+
+![](./images/beeware_run_installation.jpg)
+
+
 
 ## Tutial
 
