@@ -56,7 +56,11 @@ Then just go to the path you unzipped it, and you will be able to find the "TAS-
 
 This way is mainly designed for Linux users and macOS users, though Windows users can also run it this way.
 
-To run this application, you should use git to clone it, with git installed and a working network. After cloning the repo, you need a working python 3.11 or above to run it. And there might be some other dependencies that should be installed before moving on.
+To run this application, you should use git to clone it, with git installed and a working network. After cloning the repo, you need a working python 3.10 or above to run it. 
+
+![](./images/python_version.jpg)
+
+And there might be some other dependencies that should be installed before moving on.
 
 Take Ubuntu 22.04 for example, some system packages should be installed with commands below:
 
@@ -65,15 +69,34 @@ sudo apt update
 sudo apt install build-essential git pkg-config python3-dev python3-venv libgirepository1.0-dev libcairo2-dev gir1.2-webkit2-4.0 libcanberra-gtk3-module
 ```
 
+With no installations above, you may encounter some problems on using `pip install pycairo` and may not be able to run the beeware and related requirements.
+
 The overall commands are like below:
 
 ```Bash
 git clone https://github.com/GeoPyTool/TAS-PF.git
 cd TAS-PF
 pip install -r requirement.txt
+```
+
+The progress above may be like the picture below.
+
+![](./images/requirements_installed.jpg)
+
+If the requirements get installed, you may see some warnings which will not be a big problem at all.
+
+![](./images/requirements_installed.jpg)
+
+Keep in the same path and get into the subfolder named 'taspf', then use 'briefcase run' to run it.
+
+```Bash
+cd taspf
 briefcase run
 ```
 
+The first time you run the commands above, you may see the second pard of requirements installation, which may take some time,. This step will only happen on the first time you run it, next time when you run it, the downloaded requirements will be ready and there will be no need to take these time then.
+
+![](./images/beeware_run.jpg)
 
 
 
