@@ -113,6 +113,34 @@ This step will only happen on the first time you run it, next time when you run 
 
 ## Tutial
 
+Running part will be really easy due to the simple design of TAS-PF.
+
+### Data File Format
+
+Both CSV and Excel files are supported by the TAS-PF.
+
+The data file structure should be like shwon below:
+
+![](./images/data_setting.jpg)
+
+The required items are `Label,SiO2(wt%),K2O(wt%),Na2O(wt%)`，`Label` is required to seperate the unclassified data, the other three are the data used to plot, where `SiO2(wt%)` is used as the x , and `K2O(wt%)+Na2O(wt%)` are combined and used as y.
+
+If you want to mannually set the plot outcome suas the colors and markers, just add the coloumns as shown above, which are in fact just the common matplotlib settings.
+
+A sample data file can be found at [data_samples/TAS.csv](./data_samples/TAS.csv).
+
+
+### Run the Application
+
+#### Open Data
+
+#### Plot Data
+
+#### Export Result
+
+
+The generated result can be added to the original data and exported as similare data file shown like [/data_samples/TAS_Result.csv](./data_samples/TAS_Result.csv)
+
 ### Traditional Diagram
 
 ![](./images/TAS-PF-Traditional.jpg)
