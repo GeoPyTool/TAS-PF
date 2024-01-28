@@ -96,6 +96,9 @@ pip install -r requirement.txt
 
 ![](./images/beeware_run.jpg)
 
+
+#### 1.2.2 运行项目
+
 还是保持在克隆的代码的路径，然后找到子文件夹 'taspf'，利用 cd 命令进入，然后运行 'briefcase run' 就可以运行代码了。
 
 ```Bash
@@ -158,7 +161,7 @@ TAS-PF 支持 CSV 和 Excel 文件，具体的设置可以参考下面的截图�
 
 弹出的判断结果表格可以保存成一个文件，可以参考 [/data_samples/TAS_Result.csv](./data_samples/TAS_Result.csv)，实际就是在源数据文件的左侧加上概率场判断类别、判断概率、TAS经典图解判断类别这三列。
 
-### 2.2.4 切换效果
+### 2.3 切换效果
 
 在图形界面上，可以在VOL和PLU之间切换GEOROC底图数据，另外还可以切换是否显示线条，还有对底图显示的开关。
 
@@ -186,7 +189,7 @@ TAS-PF 支持 CSV 和 Excel 文件，具体的设置可以参考下面的截图�
 
 ![](./images/TAS-PF-PLU-Nolines.jpg)
 
-### 2.2.4 保存投图
+### 2.4 保存投图
 
 经过一番调整之后，如果你想要保存下来当前投图，就可以点击 `Save Plot`，如下图所示：
 

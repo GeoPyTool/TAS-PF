@@ -4,7 +4,7 @@ TAS Diagram extended with Probabilistic Field.
 
 [中文文档](./READM_CN.md)
 
-## Explaination
+## 0 Introduction
 
 This is a TAS Diagram extended with Probabilistic Field. As the wikipedia says, the TAS stands for Total Alkali Silica. The TAS can be used as a plotting diagram and a classification to assign rock type names to unlabeled igneous rocks.
 
@@ -14,18 +14,18 @@ This TAS-PF is an extended version of TAS, the PF stands for Probabilistic Field
 
 Based on the probability field obtained from the worldwide igneous data on Georoc, the probabilities are used on a case-by-case basis to determine the rock class of the samples to be classified. This approach complements the conclusions obtained from the classification boundaries in the traditional illustrations and does not perturb the classification boundaries as they may occur with the addition of data as in the traditional illustrations, and the probability field only becomes more and more stable as the size of the data grows. Thus, this project achieves both the inheritance of traditional graphical boundaries for forward compatibility and the introduction of probability fields to support data updating for backward compatibility.
 
-## Installation
+## 1 Installation
 
 For Windows users, this TAS-PF can be installed quite easy.
 
-### Download and Run
+### 1.1 Download and Run
 
 Download Link https://pan.baidu.com/s/1QprhPGUFd99K-4MgA9pFCA?pwd=iaiz
 Code iaiz
 
 This is only availiable for modern Windows system, including Windows 10 and 11.
 
-#### Installation with MSI file on Windows
+#### 1.1.1 Installation with MSI file on Windows
 
 A "TAS-PF-1.0.0.msi" file is availiable in this link, which can be directly installed.
 
@@ -51,7 +51,7 @@ If you do not want it installed this way anymore, you can uninstall it from the 
 
 ![](./images/MSI_uninstall.jpg)
 
-#### Unzip and run on Windows
+#### 1.1.2 Unzip and run on Windows
 
 A "TAS-PF-1.0.0.zip" file is also provided in the link above, which an be unzip to any location, where the locantion should be pure English and contain no blank in the path.
 
@@ -61,9 +61,9 @@ Then just go to the path you unzipped it, and you will be able to find the "TAS-
 
 ![](./images/Zip-ClicktoRun.jpg)
 
-### Clone and Run
+### 1.2 Clone and Run
 
-#### Clone this repo
+#### 1.2.1 Clone this repo
 
 This way is mainly designed for Linux users and macOS users, though Windows users can also run it this way.
 
@@ -90,6 +90,7 @@ cd TAS-PF
 pip install -r requirement.txt
 ```
 
+#### 1.2.2 Run the App
 
 If the requirements get installed, you may see some warnings which will not be a big problem at all.
 
@@ -113,11 +114,11 @@ This step will only happen on the first time you run it, next time when you run 
 
 
 
-## Tutial
+## 2 Tutial
 
 Running part will be really easy due to the simple design of TAS-PF.
 
-### Data File Format
+### 2.1 Data File Format
 
 Both CSV and Excel files are supported by the TAS-PF.
 
@@ -131,7 +132,7 @@ If you want to mannually set the plot outcome suas the colors and markers, just 
 
 A sample data file can be found at [data_samples/TAS.csv](./data_samples/TAS.csv).
 
-### Run the Application
+### 2.2 Run the Application
 
 No matter how you install it, the GUI interface will always be alomost same.
 
@@ -139,13 +140,13 @@ The blacnk interface will be like this:
 
 ![](./images/run_begin.jpg)
 
-#### Open Data
+#### 2.2.1 Open Data
 
 Just select a CSV or Excel file and it will be loaded to the left part of the Application.
 
 ![](./images/run_data_loaded.jpg)
 
-#### Plot Data and Export Result
+#### 2.2.2 Plot Data and Export Result
 
 When the data loaded, you may just click the `Plot Data` to do the plot and click the `Export Result` to pop up the CLassification Results. 
 
@@ -153,13 +154,13 @@ When the data loaded, you may just click the `Plot Data` to do the plot and clic
 
 The process should be so instinctive that you can figure it out very simply by exploring it.
 
-#### Save the Result
+#### 2.2.3 ave the Result
 
 ![](./images/run_save_result.jpg)
 
 The generated result can be added to the original data and exported as similare data file shown like [/data_samples/TAS_Result.csv](./data_samples/TAS_Result.csv)
 
-### Switched and Effects
+### 2.3 Switched and Effects
 
 On the GUI, there are several switched shwon below, and the effects are also very easy to figure out.
 
@@ -187,7 +188,7 @@ The effects are shown as pictures below.
 
 ![](./images/TAS-PF-PLU-Nolines.jpg)
 
-### Save the Plot
+### 2.4 Save the Plot
 
 When you get satisfied with your plots, you can save it clicking the `Save Plot`.
 
