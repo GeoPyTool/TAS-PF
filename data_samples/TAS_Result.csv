@@ -1,149 +1,149 @@
-Label,Classification,Probability,TAS as VOL,SiO2(wt%),K2O(wt%),Na2O(wt%)
-[3],Dacite,0.868,Dacite,66.88,4.08,3.53
-[3],Trachydacite,0.847,Dacite,67.52,4.19,3.47
-[3],Trachydacite,0.868,Dacite,67.42,4.12,3.57
-[3],Trachydacite,0.884,"Trachyte(q<20%),Trachydacite(q>20%)",66.57,4.0,3.74
-[3],Trachydacite,0.902,"Trachyte(q<20%),Trachydacite(q>20%)",66.75,4.22,3.55
-[3],Trachydacite,0.869,"Trachyte(q<20%),Trachydacite(q>20%)",66.87,4.04,3.63
-[3],Trachydacite,0.907,"Trachyte(q<20%),Trachydacite(q>20%)",66.07,4.18,3.76
-[3],Dacite,0.902,Dacite,66.79,3.92,3.61
-[4],Rhyodacite,0.945,Rhyolite,70.22,2.86,4.13
-[4],Trachydacite,0.773,Dacite,67.99,4.56,3.07
-[4],Adakite,0.88,Dacite,68.24,2.69,4.33
-[4],Rhyodacite,0.836,Rhyolite,71.42,4.0,3.67
-[4],Rhyolite,0.688,Rhyolite,73.37,4.36,3.53
-[4],Rhyolite,0.735,Rhyolite,73.64,4.7,3.29
-[4],Rhyodacite,0.947,Rhyolite,70.25,3.06,3.95
-[5],Rhyodacite,0.987,Dacite,69.48,3.27,3.91
-[5],Rhyodacite,1.0,Dacite,69.8,3.35,3.83
-[5],Adakite,0.946,Dacite,69.66,3.01,3.76
-[5],Rhyodacite,0.835,Rhyolite,70.69,3.14,3.66
-[5],Adakite,0.962,Dacite,69.47,3.03,3.79
-[5],Adakite,0.995,Dacite,69.56,2.95,3.7
-[5],Adakite,1.0,Dacite,69.36,3.29,3.44
-[5],Adakite,0.979,Dacite,68.86,3.1,3.73
-[6],Trachydacite,0.88,"Trachyte(q<20%),Trachydacite(q>20%)",66.84,4.05,3.65
-[6],Dacite,0.89,"Trachyte(q<20%),Trachydacite(q>20%)",66.34,4.2,3.42
-[6],Trachydacite,0.933,"Trachyte(q<20%),Trachydacite(q>20%)",67.8,4.34,3.63
-[6],Trachydacite,0.897,"Trachyte(q<20%),Trachydacite(q>20%)",67.6,4.14,3.66
-[6],Dacite,0.917,"Trachyte(q<20%),Trachydacite(q>20%)",66.18,3.83,3.73
-[6],Dacite,1.0,Dacite,66.08,3.65,3.7
-[6],Trachydacite,0.857,Dacite,66.92,3.9,3.74
-[7],Boninite,0.19,Dacite,70.79,3.24,0.29
-[7],Boninite,0.407,Dacite,65.3,3.24,0.33
-[7],Boninite,0.4,Dacite,68.87,3.04,0.24
-[7],Boninite,0.316,Dacite,66.22,3.27,0.34
-[7],Boninite,0.343,Dacite,65.5,3.92,0.2
-[11],Trachyandesite,0.822,Trachyandesite,58.19,0.76,5.65
-[11],Phonolite,0.538,"Trachyte(q<20%),Trachydacite(q>20%)",61.08,3.2,6.31
-[11],Trachyandesite,0.917,Trachyandesite,58.27,1.92,4.84
-[12],Rhyolite,0.845,Rhyolite,76.22,5.49,3.55
-[12],Comendite,0.849,Rhyolite,75.75,5.74,3.44
-[12],Rhyolite,0.879,Rhyolite,77.21,4.52,3.86
-[12],Rhyolite,0.973,Rhyolite,75.3,4.81,3.74
-[12],Rhyolite,0.99,Rhyolite,75.5,4.37,4.13
-[12],Rhyolite,1.0,Rhyolite,75.57,4.13,4.11
-[12],Rhyolite,0.91,Rhyolite,75.1,4.42,4.41
-[12],Comendite,0.918,Rhyolite,74.42,4.13,4.95
-[12],Comendite,0.979,Rhyolite,75.22,4.64,4.63
-[19]-A,Rhyolite,0.74,Rhyolite,77.7,4.42,3.1
-[19]-A,Rhyolite,0.776,Rhyolite,77.58,4.86,3.5
-[19]-A,Rhyolite,0.772,Rhyolite,77.55,4.94,3.49
-[19]-A,Rhyolite,0.798,Rhyolite,77.38,5.68,2.86
-[19]-A,Rhyolite,0.872,Rhyolite,77.21,4.96,3.46
-[19]-A,Rhyolite,0.921,Rhyolite,77.12,4.25,3.67
-[19]-A,Rhyolite,0.821,Rhyolite,77.06,5.52,3.23
-[19]-A,Rhyolite,0.909,Rhyolite,76.98,5.18,2.51
-[19]-A,Rhyolite,0.849,Rhyolite,76.86,3.26,4.16
-[19]-A,Rhyolite,0.891,Rhyolite,76.32,5.1,3.79
-[19]-A,Rhyolite,0.993,Rhyolite,75.9,4.29,4.27
-[19]-A,Comendite,1.0,Rhyolite,74.74,5.08,4.25
-[19]-A,Rhyolite,0.84,Rhyolite,74.33,4.71,3.89
-[19]-A,Rhyolite,0.147,Rhyolite,74.16,4.39,0.6
-[19]-A,Rhyolite,0.781,Rhyolite,73.91,4.4,3.63
-[19]-A,Comendite,0.766,Rhyolite,73.52,4.9,4.64
-[19]-A,Rhyolite,0.539,Rhyolite,72.41,3.68,4.68
-[19]-A,Rhyodacite,0.698,Rhyolite,71.74,3.58,4.68
-[19]-A,Pantellerite,0.557,Rhyolite,71.66,4.16,5.17
-[19]-A,Rhyodacite,0.695,Rhyolite,71.17,2.73,5.89
-[19]-A,Rhyodacite,0.751,Rhyolite,70.76,4.01,4.59
-[19]-A,Pantellerite,0.792,Rhyolite,70.24,4.81,4.94
-[19]-A,Rhyodacite,0.557,Rhyolite,70.23,5.49,3.67
-[19]-A,Rhyodacite,0.911,Rhyolite,69.61,4.12,4.04
-[19]-A,Pantellerite,1.0,Rhyolite,69.22,6.18,4.5
-[19]-A,Rhyolite,0.85,Rhyolite,76.83,4.3,3.12
-[19]-A,Rhyodacite,0.802,Rhyolite,70.14,3.85,4.71
-[19]-A,Rhyolite,0.89,Rhyolite,77.08,3.48,4.18
-[19]-A,Rhyolite,0.974,Rhyolite,76.27,4.06,3.79
-[19]-A,Rhyolite,0.863,Rhyolite,75.85,4.73,2.74
-[19]-A,Rhyolite,0.931,Rhyolite,75.81,4.56,4.29
-[19]-A,Comendite,0.895,Rhyolite,74.21,4.62,4.55
-[19]-A,Comendite,0.823,Rhyolite,73.94,5.52,3.63
-[19]-A,Pantellerite,0.537,Rhyolite,71.04,4.5,4.73
-[19]-A,Rhyodacite,0.727,Rhyolite,70.82,4.0,4.65
-[19]-A,Rhyodacite,0.917,Rhyolite,70.62,3.66,4.44
-[19]-A,Pantellerite,0.789,Rhyolite,70.44,5.21,4.51
-[19]-A,Trachydacite,0.574,Rhyolite,69.56,4.35,4.73
-[19]-A,Trachydacite,0.578,Rhyolite,69.51,4.09,5.06
-[19]-A,Trachydacite,0.826,"Trachyte(q<20%),Trachydacite(q>20%)",68.42,3.74,4.27
-[19]-A,Trachydacite,0.792,Dacite,67.98,3.85,3.82
-[19]-A,Trachydacite,0.99,"Trachyte(q<20%),Trachydacite(q>20%)",67.49,3.65,4.42
-[19]-A,Trachydacite,1.0,"Trachyte(q<20%),Trachydacite(q>20%)",66.7,4.24,4.08
-[19]-B,Trachyandesite,0.961,Trachyandesite,58.37,3.17,3.99
-[19]-B,Trachyandesite,0.89,Trachyandesite,57.23,2.35,4.13
-[19]-B,Trachyandesite,0.97,Basaltic Trachyandesite,54.6,2.41,4.13
-[19]-B,Shoshonite,0.83,Basaltic Trachyandesite,53.64,2.34,3.56
-[19]-B,Shoshonite,0.979,Basaltic Trachyandesite,53.01,2.4,3.94
-[19]-B,Shoshonite,0.68,Basaltic Trachyandesite,52.25,1.7,3.59
-[19]-B,Trachybasalt,0.81,Trachybasalt,50.29,1.64,3.61
-[19]-B,Hawaiite,0.82,Basalt,48.66,1.57,3.14
-[19]-B,Latite,1.0,Trachyandesite,59.72,1.3,6.02
-[19]-B,Trachyandesite,0.958,Trachyandesite,58.02,2.7,4.63
-[19]-B,Trachyandesite,0.759,Trachyandesite,56.9,2.65,3.37
-[19]-B,Andesite,1.0,Basaltic Andesite,56.13,1.16,3.93
-[19]-B,Andesite,0.928,Basaltic Andesite,55.72,1.8,3.5
-[19]-B,Trachyandesite,0.963,Basaltic Trachyandesite,54.38,2.65,4.33
-[19]-B,Trachyandesite,0.816,Basaltic Trachyandesite,53.78,1.95,3.92
-[19]-B,Rhyolite,0.761,Rhyolite,74.35,3.67,3.8
-[19]-B,Adakite,0.831,Trachyandesite,59.73,1.5,4.93
-[19]-B,Adakite,0.866,Andesite,59.67,3.26,2.97
-[19]-B,Latite,0.911,Trachyandesite,59.6,2.25,6.01
-[19]-B,Trachyandesite,0.833,Basaltic Trachyandesite,54.53,2.07,3.86
-[19]-B,Adakite,0.828,Trachyandesite,60.04,3.51,3.17
-[19]-B,Trachyandesite,0.964,Trachyandesite,57.5,2.65,4.5
-[19]-B,Trachyandesite,0.954,Trachyandesite,57.5,3.2,3.7
-[19]-B,Trachyandesite,0.982,Trachyandesite,56.54,3.3,3.87
-[19]-B,Trachyandesite,0.999,Trachyandesite,56.06,2.3,4.76
-[19]-B,Trachyandesite,0.99,Trachyandesite,56.0,2.5,4.69
-[19]-B,Trachyandesite,0.897,Trachyandesite,55.6,3.47,4.24
-[19]-B,Trachyandesite,1.0,Basaltic Trachyandesite,55.13,2.91,3.9
-[19]-B,Trachyandesite,0.933,Basaltic Trachyandesite,53.8,3.05,3.35
-[19]-B,Shoshonite,0.742,Basaltic Trachyandesite,52.46,2.15,3.3
-[19]-B,Mugearite,1.0,Basaltic Trachyandesite,51.76,3.13,4.15
-[19]-B,Trachyandesite,0.954,Basaltic Trachyandesite,54.97,2.57,3.8
-[20]-A,Picrite,0.904,Basalt,48.17,0.72,1.88
-[20]-A,Basalt,1.0,Basalt,50.56,0.77,2.44
-[20]-A,Lamproite,0.775,Basalt,47.44,0.73,2.29
-[20]-A,Basalt,0.888,Basalt,49.15,1.38,2.59
-[20]-A,Basalt,0.734,Basalt,47.92,0.71,3.04
-[20]-A,Andesite_basaltic,1.0,Basaltic Andesite,54.77,1.91,2.57
-[20]-A,Basalt,0.966,Basalt,50.93,0.84,2.75
-[20]-A,Basalt,0.978,Basalt,49.73,0.81,2.85
-[20]-A,Tephrite,0.948,Basalt,45.62,1.37,2.46
-[20]-A,Picrite,0.755,Basalt,47.52,0.71,2.22
-[20]-A,Oceanite,0.911,Basalt,46.88,0.48,2.63
-[20]-A,Basalt,0.784,Basalt,48.24,1.04,2.43
-[20]-A,Picrite,0.88,Basalt,47.35,0.69,1.93
-[20]-A,Komatiite,1.0,Basalt,48.28,0.04,1.92
-[20]-A,Oceanite,0.946,Basalt,46.84,1.06,1.87
-[20]-A,Lamproite,1.0,Basalt,46.24,1.89,1.3
-[20]-A,Picrite,0.888,Basalt,47.89,0.69,1.96
-[20]-A,Boninite,1.0,Basalt,51.93,1.15,2.54
-[20]-B,Tholeiite,0.828,Basalt,49.9,0.4,1.99
-[20]-B,Picrite,0.75,Basalt,49.6,0.39,1.92
-[20]-B,Tholeiite,0.884,Basalt,50.0,0.45,2.13
-[20]-B,Basalt,0.821,Basalt,49.6,0.47,2.04
-[20]-B,Tholeiite,0.971,Basalt,50.4,0.5,2.38
-[20]-B,Tholeiite,1.0,Basalt,50.8,0.69,2.3
-[20]-B,Basalt,0.83,Basalt,48.5,1.16,2.61
-[20]-B,Basalt,0.943,Basalt,49.4,0.77,2.34
+Label,Classification,Probability,TAS as VOL,SiO2(wt%),K2O(wt%),Na2O(wt%),Color,Marker
+[19]-B,Adakite,0.866,Andesite,59.67,3.26,2.97,[1.         0.58778525 0.30901699 1.        ],h
+[20]-A,Basalt,0.888,Basalt,49.15,1.38,2.59,[1.         0.30315267 0.15339165 1.        ],H
+[20]-B,Tholeiite,0.971,Basalt,50.4,0.5,2.38,[1.0000000e+00 1.2246468e-16 6.1232340e-17 1.0000000e+00],D
+[20]-A,Tephrite,0.948,Basalt,45.62,1.37,2.46,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Oceanite,0.946,Basalt,46.84,1.06,1.87,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Basalt,0.978,Basalt,49.73,0.81,2.85,[1.         0.30315267 0.15339165 1.        ],H
+[20]-B,Basalt,0.943,Basalt,49.4,0.77,2.34,[1.0000000e+00 1.2246468e-16 6.1232340e-17 1.0000000e+00],D
+[20]-B,Picrite,0.75,Basalt,49.6,0.39,1.92,[1.0000000e+00 1.2246468e-16 6.1232340e-17 1.0000000e+00],D
+[20]-A,Picrite,0.755,Basalt,47.52,0.71,2.22,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Lamproite,0.775,Basalt,47.44,0.73,2.29,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Oceanite,0.911,Basalt,46.88,0.48,2.63,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Basalt,0.784,Basalt,48.24,1.04,2.43,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Picrite,0.904,Basalt,48.17,0.72,1.88,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Basalt,0.966,Basalt,50.93,0.84,2.75,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Komatiite,1.0,Basalt,48.28,0.04,1.92,[1.         0.30315267 0.15339165 1.        ],H
+[19]-B,Hawaiite,0.82,Basalt,48.66,1.57,3.14,[1.         0.58778525 0.30901699 1.        ],h
+[20]-A,Picrite,0.888,Basalt,47.89,0.69,1.96,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Lamproite,1.0,Basalt,46.24,1.89,1.3,[1.         0.30315267 0.15339165 1.        ],H
+[20]-B,Tholeiite,1.0,Basalt,50.8,0.69,2.3,[1.0000000e+00 1.2246468e-16 6.1232340e-17 1.0000000e+00],D
+[20]-A,Boninite,1.0,Basalt,51.93,1.15,2.54,[1.         0.30315267 0.15339165 1.        ],H
+[20]-B,Basalt,0.821,Basalt,49.6,0.47,2.04,[1.0000000e+00 1.2246468e-16 6.1232340e-17 1.0000000e+00],D
+[20]-B,Basalt,0.83,Basalt,48.5,1.16,2.61,[1.0000000e+00 1.2246468e-16 6.1232340e-17 1.0000000e+00],D
+[20]-A,Basalt,0.734,Basalt,47.92,0.71,3.04,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Basalt,1.0,Basalt,50.56,0.77,2.44,[1.         0.30315267 0.15339165 1.        ],H
+[20]-B,Tholeiite,0.828,Basalt,49.9,0.4,1.99,[1.0000000e+00 1.2246468e-16 6.1232340e-17 1.0000000e+00],D
+[20]-B,Tholeiite,0.884,Basalt,50.0,0.45,2.13,[1.0000000e+00 1.2246468e-16 6.1232340e-17 1.0000000e+00],D
+[20]-A,Picrite,0.88,Basalt,47.35,0.69,1.93,[1.         0.30315267 0.15339165 1.        ],H
+[20]-A,Andesite_basaltic,1.0,Basaltic Andesite,54.77,1.91,2.57,[1.         0.30315267 0.15339165 1.        ],H
+[19]-B,Andesite,0.928,Basaltic Andesite,55.72,1.8,3.5,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Andesite,1.0,Basaltic Andesite,56.13,1.16,3.93,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.933,Basaltic Trachyandesite,53.8,3.05,3.35,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.816,Basaltic Trachyandesite,53.78,1.95,3.92,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.833,Basaltic Trachyandesite,54.53,2.07,3.86,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.954,Basaltic Trachyandesite,54.97,2.57,3.8,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Shoshonite,0.83,Basaltic Trachyandesite,53.64,2.34,3.56,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Shoshonite,0.742,Basaltic Trachyandesite,52.46,2.15,3.3,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.963,Basaltic Trachyandesite,54.38,2.65,4.33,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,1.0,Basaltic Trachyandesite,55.13,2.91,3.9,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.97,Basaltic Trachyandesite,54.6,2.41,4.13,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Mugearite,1.0,Basaltic Trachyandesite,51.76,3.13,4.15,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Shoshonite,0.979,Basaltic Trachyandesite,53.01,2.4,3.94,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Shoshonite,0.68,Basaltic Trachyandesite,52.25,1.7,3.59,[1.         0.58778525 0.30901699 1.        ],h
+[5],Adakite,0.995,Dacite,69.56,2.95,3.7,[0.1        0.58778525 0.95105652 1.        ],^
+[5],Adakite,1.0,Dacite,69.36,3.29,3.44,[0.1        0.58778525 0.95105652 1.        ],^
+[7],Boninite,0.19,Dacite,70.79,3.24,0.29,[0.3        0.95105652 0.80901699 1.        ],>
+[7],Boninite,0.407,Dacite,65.3,3.24,0.33,[0.3        0.95105652 0.80901699 1.        ],>
+[5],Adakite,0.962,Dacite,69.47,3.03,3.79,[0.1        0.58778525 0.95105652 1.        ],^
+[7],Boninite,0.4,Dacite,68.87,3.04,0.24,[0.3        0.95105652 0.80901699 1.        ],>
+[7],Boninite,0.343,Dacite,65.5,3.92,0.2,[0.3        0.95105652 0.80901699 1.        ],>
+[6],Dacite,1.0,Dacite,66.08,3.65,3.7,[0.09607843 0.80538092 0.89240058 1.        ],<
+[7],Boninite,0.316,Dacite,66.22,3.27,0.34,[0.3        0.95105652 0.80901699 1.        ],>
+[3],Trachydacite,0.868,Dacite,67.42,4.12,3.57,[0.5 0.  1.  1. ],o
+[3],Dacite,0.868,Dacite,66.88,4.08,3.53,[0.5 0.  1.  1. ],o
+[5],Rhyodacite,1.0,Dacite,69.8,3.35,3.83,[0.1        0.58778525 0.95105652 1.        ],^
+[6],Trachydacite,0.857,Dacite,66.92,3.9,3.74,[0.09607843 0.80538092 0.89240058 1.        ],<
+[3],Dacite,0.902,Dacite,66.79,3.92,3.61,[0.5 0.  1.  1. ],o
+[4],Adakite,0.88,Dacite,68.24,2.69,4.33,[0.30392157 0.30315267 0.98816547 1.        ],v
+[19]-A,Trachydacite,0.792,Dacite,67.98,3.85,3.82,[0.90392157 0.80538092 0.45124406 1.        ],*
+[3],Trachydacite,0.847,Dacite,67.52,4.19,3.47,[0.5 0.  1.  1. ],o
+[5],Adakite,0.979,Dacite,68.86,3.1,3.73,[0.1        0.58778525 0.95105652 1.        ],^
+[5],Adakite,0.946,Dacite,69.66,3.01,3.76,[0.1        0.58778525 0.95105652 1.        ],^
+[4],Trachydacite,0.773,Dacite,67.99,4.56,3.07,[0.30392157 0.30315267 0.98816547 1.        ],v
+[5],Rhyodacite,0.987,Dacite,69.48,3.27,3.91,[0.1        0.58778525 0.95105652 1.        ],^
+[19]-A,Rhyodacite,0.751,Rhyolite,70.76,4.01,4.59,[0.90392157 0.80538092 0.45124406 1.        ],*
+[12],Rhyolite,0.845,Rhyolite,76.22,5.49,3.55,[0.7        0.95105652 0.58778525 1.        ],p
+[4],Rhyolite,0.688,Rhyolite,73.37,4.36,3.53,[0.30392157 0.30315267 0.98816547 1.        ],v
+[19]-A,Rhyolite,0.74,Rhyolite,77.7,4.42,3.1,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyodacite,0.695,Rhyolite,71.17,2.73,5.89,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyodacite,0.698,Rhyolite,71.74,3.58,4.68,[0.90392157 0.80538092 0.45124406 1.        ],*
+[5],Rhyodacite,0.835,Rhyolite,70.69,3.14,3.66,[0.1        0.58778525 0.95105652 1.        ],^
+[19]-A,Rhyodacite,0.727,Rhyolite,70.82,4.0,4.65,[0.90392157 0.80538092 0.45124406 1.        ],*
+[4],Rhyodacite,0.836,Rhyolite,71.42,4.0,3.67,[0.30392157 0.30315267 0.98816547 1.        ],v
+[19]-A,Rhyolite,0.84,Rhyolite,74.33,4.71,3.89,[0.90392157 0.80538092 0.45124406 1.        ],*
+[4],Rhyolite,0.735,Rhyolite,73.64,4.7,3.29,[0.30392157 0.30315267 0.98816547 1.        ],v
+[19]-A,Comendite,0.823,Rhyolite,73.94,5.52,3.63,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.776,Rhyolite,77.58,4.86,3.5,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-B,Rhyolite,0.761,Rhyolite,74.35,3.67,3.8,[1.         0.58778525 0.30901699 1.        ],h
+[19]-A,Comendite,0.766,Rhyolite,73.52,4.9,4.64,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.821,Rhyolite,77.06,5.52,3.23,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Pantellerite,0.537,Rhyolite,71.04,4.5,4.73,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.772,Rhyolite,77.55,4.94,3.49,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyodacite,0.802,Rhyolite,70.14,3.85,4.71,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.798,Rhyolite,77.38,5.68,2.86,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Pantellerite,0.792,Rhyolite,70.24,4.81,4.94,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Trachydacite,0.574,Rhyolite,69.56,4.35,4.73,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.539,Rhyolite,72.41,3.68,4.68,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Pantellerite,0.789,Rhyolite,70.44,5.21,4.51,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Pantellerite,0.557,Rhyolite,71.66,4.16,5.17,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.781,Rhyolite,73.91,4.4,3.63,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyodacite,0.557,Rhyolite,70.23,5.49,3.67,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Trachydacite,0.578,Rhyolite,69.51,4.09,5.06,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Comendite,1.0,Rhyolite,74.74,5.08,4.25,[0.90392157 0.80538092 0.45124406 1.        ],*
+[12],Comendite,0.849,Rhyolite,75.75,5.74,3.44,[0.7        0.95105652 0.58778525 1.        ],p
+[19]-A,Rhyodacite,0.911,Rhyolite,69.61,4.12,4.04,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.849,Rhyolite,76.86,3.26,4.16,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyodacite,0.917,Rhyolite,70.62,3.66,4.44,[0.90392157 0.80538092 0.45124406 1.        ],*
+[12],Comendite,0.918,Rhyolite,74.42,4.13,4.95,[0.7        0.95105652 0.58778525 1.        ],p
+[19]-A,Rhyolite,0.921,Rhyolite,77.12,4.25,3.67,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.931,Rhyolite,75.81,4.56,4.29,[0.90392157 0.80538092 0.45124406 1.        ],*
+[4],Rhyodacite,0.945,Rhyolite,70.22,2.86,4.13,[0.30392157 0.30315267 0.98816547 1.        ],v
+[4],Rhyodacite,0.947,Rhyolite,70.25,3.06,3.95,[0.30392157 0.30315267 0.98816547 1.        ],v
+[12],Rhyolite,0.973,Rhyolite,75.3,4.81,3.74,[0.7        0.95105652 0.58778525 1.        ],p
+[19]-A,Rhyolite,0.974,Rhyolite,76.27,4.06,3.79,[0.90392157 0.80538092 0.45124406 1.        ],*
+[12],Comendite,0.979,Rhyolite,75.22,4.64,4.63,[0.7        0.95105652 0.58778525 1.        ],p
+[12],Rhyolite,0.99,Rhyolite,75.5,4.37,4.13,[0.7        0.95105652 0.58778525 1.        ],p
+[19]-A,Rhyolite,0.993,Rhyolite,75.9,4.29,4.27,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Pantellerite,1.0,Rhyolite,69.22,6.18,4.5,[0.90392157 0.80538092 0.45124406 1.        ],*
+[12],Rhyolite,1.0,Rhyolite,75.57,4.13,4.11,[0.7        0.95105652 0.58778525 1.        ],p
+[12],Rhyolite,0.91,Rhyolite,75.1,4.42,4.41,[0.7        0.95105652 0.58778525 1.        ],p
+[19]-A,Rhyolite,0.909,Rhyolite,76.98,5.18,2.51,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.147,Rhyolite,74.16,4.39,0.6,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.89,Rhyolite,77.08,3.48,4.18,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.85,Rhyolite,76.83,4.3,3.12,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.863,Rhyolite,75.85,4.73,2.74,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Comendite,0.895,Rhyolite,74.21,4.62,4.55,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-A,Rhyolite,0.891,Rhyolite,76.32,5.1,3.79,[0.90392157 0.80538092 0.45124406 1.        ],*
+[12],Rhyolite,0.879,Rhyolite,77.21,4.52,3.86,[0.7        0.95105652 0.58778525 1.        ],p
+[19]-A,Rhyolite,0.872,Rhyolite,77.21,4.96,3.46,[0.90392157 0.80538092 0.45124406 1.        ],*
+[19]-B,Trachyandesite,0.964,Trachyandesite,57.5,2.65,4.5,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Adakite,0.828,Trachyandesite,60.04,3.51,3.17,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.982,Trachyandesite,56.54,3.3,3.87,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.958,Trachyandesite,58.02,2.7,4.63,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.961,Trachyandesite,58.37,3.17,3.99,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.99,Trachyandesite,56.0,2.5,4.69,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.999,Trachyandesite,56.06,2.3,4.76,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Latite,1.0,Trachyandesite,59.72,1.3,6.02,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Adakite,0.831,Trachyandesite,59.73,1.5,4.93,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.897,Trachyandesite,55.6,3.47,4.24,[1.         0.58778525 0.30901699 1.        ],h
+[11],Trachyandesite,0.917,Trachyandesite,58.27,1.92,4.84,[0.50392157 0.99998103 0.70492555 1.        ],s
+[11],Trachyandesite,0.822,Trachyandesite,58.19,0.76,5.65,[0.50392157 0.99998103 0.70492555 1.        ],s
+[19]-B,Trachyandesite,0.759,Trachyandesite,56.9,2.65,3.37,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Latite,0.911,Trachyandesite,59.6,2.25,6.01,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.89,Trachyandesite,57.23,2.35,4.13,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachyandesite,0.954,Trachyandesite,57.5,3.2,3.7,[1.         0.58778525 0.30901699 1.        ],h
+[19]-B,Trachybasalt,0.81,Trachybasalt,50.29,1.64,3.61,[1.         0.58778525 0.30901699 1.        ],h
+[6],Trachydacite,0.88,"Trachyte(q<20%),Trachydacite(q>20%)",66.84,4.05,3.65,[0.09607843 0.80538092 0.89240058 1.        ],<
+[3],Trachydacite,0.902,"Trachyte(q<20%),Trachydacite(q>20%)",66.75,4.22,3.55,[0.5 0.  1.  1. ],o
+[19]-A,Trachydacite,1.0,"Trachyte(q<20%),Trachydacite(q>20%)",66.7,4.24,4.08,[0.90392157 0.80538092 0.45124406 1.        ],*
+[3],Trachydacite,0.907,"Trachyte(q<20%),Trachydacite(q>20%)",66.07,4.18,3.76,[0.5 0.  1.  1. ],o
+[11],Phonolite,0.538,"Trachyte(q<20%),Trachydacite(q>20%)",61.08,3.2,6.31,[0.50392157 0.99998103 0.70492555 1.        ],s
+[6],Dacite,0.917,"Trachyte(q<20%),Trachydacite(q>20%)",66.18,3.83,3.73,[0.09607843 0.80538092 0.89240058 1.        ],<
+[19]-A,Trachydacite,0.99,"Trachyte(q<20%),Trachydacite(q>20%)",67.49,3.65,4.42,[0.90392157 0.80538092 0.45124406 1.        ],*
+[6],Dacite,0.89,"Trachyte(q<20%),Trachydacite(q>20%)",66.34,4.2,3.42,[0.09607843 0.80538092 0.89240058 1.        ],<
+[3],Trachydacite,0.884,"Trachyte(q<20%),Trachydacite(q>20%)",66.57,4.0,3.74,[0.5 0.  1.  1. ],o
+[6],Trachydacite,0.933,"Trachyte(q<20%),Trachydacite(q>20%)",67.8,4.34,3.63,[0.09607843 0.80538092 0.89240058 1.        ],<
+[19]-A,Trachydacite,0.826,"Trachyte(q<20%),Trachydacite(q>20%)",68.42,3.74,4.27,[0.90392157 0.80538092 0.45124406 1.        ],*
+[3],Trachydacite,0.869,"Trachyte(q<20%),Trachydacite(q>20%)",66.87,4.04,3.63,[0.5 0.  1.  1. ],o
+[6],Trachydacite,0.897,"Trachyte(q<20%),Trachydacite(q>20%)",67.6,4.14,3.66,[0.09607843 0.80538092 0.89240058 1.        ],<

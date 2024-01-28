@@ -129,15 +129,26 @@ If you want to mannually set the plot outcome suas the colors and markers, just 
 
 A sample data file can be found at [data_samples/TAS.csv](./data_samples/TAS.csv).
 
-
 ### Run the Application
+
+No matter how you install it, the GUI interface will always be alomost same.
+
+The blacnk interface will be like this:
+
+![](./images/run_begin.jpg)
 
 #### Open Data
 
-#### Plot Data
+Just select a CSV or Excel file and it will be loaded to the left part of the Application.
 
-#### Export Result
+![](./images/run_data_loaded.jpg)
 
+#### Plot Data and Export Result
+
+
+#### Save the Result
+
+![](./images/run_save_result.jpg)
 
 The generated result can be added to the original data and exported as similare data file shown like [/data_samples/TAS_Result.csv](./data_samples/TAS_Result.csv)
 
