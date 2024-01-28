@@ -1,14 +1,13 @@
 # TAS-PF
+
 TAS Diagram extended with Probabilistic Field.
-
-
 
 ## Installation
 
 ### Download and Run
 
-Download Link https://pan.baidu.com/s/1QprhPGUFd99K-4MgA9pFCA?pwd=iaiz 
-Code iaiz 
+Download Link https://pan.baidu.com/s/1QprhPGUFd99K-4MgA9pFCA?pwd=iaiz
+Code iaiz
 
 This is only availiable for modern Windows system, including Windows 10 and 11.
 
@@ -17,7 +16,6 @@ This is only availiable for modern Windows system, including Windows 10 and 11.
 A "TAS-PF-1.0.0.msi" file is availiable in this link, which can be directly installed.
 
 ![](./images/MSI_install.jpg)
-
 
 There are twon modes for this way, for current user only and for all users on the system. If you take the former way, the installed app will only be availibale for the current user who installed it.
 
@@ -39,10 +37,9 @@ If you do not want it installed this way anymore, you can uninstall it from the 
 
 ![](./images/MSI_uninstall.jpg)
 
-
 #### Unzip and run on Windows
 
-A "TAS-PF-1.0.0.zip" file is also provided in the link above, which an be unzip to any location, where the locantion should be pure English and contain no blank in the path. 
+A "TAS-PF-1.0.0.zip" file is also provided in the link above, which an be unzip to any location, where the locantion should be pure English and contain no blank in the path.
 
 ![](./images/Zip-Unzip.jpg)
 
@@ -50,13 +47,13 @@ Then just go to the path you unzipped it, and you will be able to find the "TAS-
 
 ![](./images/Zip-ClicktoRun.jpg)
 
-### Clone and Run 
+### Clone and Run
 
 #### Clone this repo
 
 This way is mainly designed for Linux users and macOS users, though Windows users can also run it this way.
 
-To run this application, you should use git to clone it, with git installed and a working network. After cloning the repo, you need a working python 3.10 or above to run it. 
+To run this application, you should use git to clone it, with git installed and a working network. After cloning the repo, you need a working python 3.10 or above to run it.
 
 ![](./images/python_version.jpg)
 
@@ -85,7 +82,7 @@ The progress above may be like the picture below.
 
 If the requirements get installed, you may see some warnings which will not be a big problem at all.
 
-![](./images/requirements_installed.jpg)
+![](./images/beeware_run.jpg)
 
 Keep in the same path and get into the subfolder named 'taspf', then use 'briefcase run' to run it.
 
@@ -97,8 +94,6 @@ briefcase run
 The first time you run the commands above, you may see the second pard of requirements installation, which may take some time,. This step will only happen on the first time you run it, next time when you run it, the downloaded requirements will be ready and there will be no need to take these time then.
 
 ![](./images/beeware_run.jpg)
-
-
 
 ## Tutial
 
@@ -114,11 +109,9 @@ The first time you run the commands above, you may see the second pard of requir
 
 ![](./images/TAS-PF-PLU.jpg)
 
-
 ### VOL with No Lines
 
 ![](./images/TAS-PF-VOL-Nolines.jpg)
-
 
 ### PLU with No Lines
 
