@@ -1,11 +1,9 @@
-requires == [
-    "PySide6-Essentials~=6.5",
-    # "PySide6-Addons~=6.5",
-    "matplotlib",
-    "numpy",
-    "pandas",
-    "scipy",
-    "toga",
-    "toga-chart",
-    "scikit-learn==1.2.0",
-]
+PySide6
+beeware
+matplotlib
+numpy
+pandas
+scipy
+toga
+toga-chart
+scikit-learn==1.2.0

@@ -56,7 +56,14 @@ Then just go to the path you unzipped it, and you will be able to find the "TAS-
 
 This way is mainly designed for Linux users and macOS users, though Windows users can also run it this way.
 
-To run this application, you should use git to clone it, with git installed and a working network. After cloning the repo, you need a working python 3.11 or above to run it.
+To run this application, you should use git to clone it, with git installed and a working network. After cloning the repo, you need a working python 3.11 or above to run it. And there might be some other dependencies that should be installed before moving on.
+
+Take Ubuntu 22.04 for example, some system packages should be installed with commands below:
+
+```Bash
+sudo apt update
+sudo apt install build-essential git pkg-config python3-dev python3-venv libgirepository1.0-dev libcairo2-dev gir1.2-webkit2-4.0 libcanberra-gtk3-module
+```
 
 The overall commands are like below:
 
