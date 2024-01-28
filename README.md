@@ -2,7 +2,7 @@
 
 TAS Diagram extended with Probabilistic Field.
 
-[中文文档](./READM_CN.md)
+[中文文档](./README_CN.md)
 
 ## 0 Introduction
 

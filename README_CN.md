@@ -3,6 +3,8 @@
 TAS Diagram extended with Probabilistic Field.
 概率场扩展的TAS图解。
 
+版本号：1.0.0
+
 ## 0 简介
 
 这是一个用概率场扩展的 TAS 图。TAS 代表 Total Alkali Silica。TAS 可以用于数据投图，为未标注的火成岩指定岩石类型名称。
