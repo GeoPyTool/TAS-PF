@@ -2,6 +2,8 @@
 
 TAS Diagram extended with Probabilistic Field.
 
+[中文文档](./READM_CN.md)
+
 ## Explaination
 
 This is a TAS Diagram extended with Probabilistic Field. As the wikipedia says, the TAS stands for Total Alkali Silica. The TAS can be used as a plotting diagram and a classification to assign rock type names to unlabeled igneous rocks.
