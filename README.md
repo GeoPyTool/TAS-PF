@@ -4,15 +4,57 @@ TAS Diagram extended with Probabilistic Field.
 
 [中文文档](./README_CN.md)
 
-## 0 Introduction
+## 1 Introduction
 
 This is a TAS Diagram extended with Probabilistic Field. As the wikipedia says, the TAS stands for Total Alkali Silica. The TAS can be used as a plotting diagram and a classification to assign rock type names to unlabeled igneous rocks.
+
+### 1.1 Background information
 
 The classical version of TAS is based upon the relationships between the combined alkali and silica contents and can be quite simple to use for rocks that have been chemically analyzed. 
 
 This TAS-PF is an extended version of TAS, the PF stands for Probabilistic Field, which is generate from the GEOROC database. 
 
 Based on the probability field obtained from the worldwide igneous data on Georoc, the probabilities are used on a case-by-case basis to determine the rock class of the samples to be classified. This approach complements the conclusions obtained from the classification boundaries in the traditional illustrations and does not perturb the classification boundaries as they may occur with the addition of data as in the traditional illustrations, and the probability field only becomes more and more stable as the size of the data grows. Thus, this project achieves both the inheritance of traditional graphical boundaries for forward compatibility and the introduction of probability fields to support data updating for backward compatibility.
+
+### 1.2 Development Environment
+
+The development environment for this software is detailed as follows:
+
+| 库名       | 版本号   | 功能描述                            |
+|------------|----------|-------------------------------------|
+| PySide6    | 6.6.1    | Qt binding library, utilized for Python GUI development |
+| beeware    | 0.3.0    | A toolset for native cross-platform mobile and desktop application development |
+| matplotlib | 3.8.0    | Data visualization library capable of producing high-quality charts |
+| numpy      | 1.26.3   | Scientific computing library that provides a multitude of mathematical functions and array operations functionalities |
+| pandas     | 2.1.4    | Data analysis library offering DataFrame and other data structures, along with various data analysis utilities |
+| scipy      | 1.11.4   | Scientific computing library featuring advanced mathematical algorithms including numerical integration, optimization, interpolation, among others |
+| toga        | 0.4.0    | A Python UI toolkit designed for building cross-platform native GUI applications |
+| toga-chart | 0.2.0    | An extension of the Toga library specifically used to create charts and implement data visualization components |
+| scikit-learn | 1.2.0   | Machine learning library incorporating a range of supervised and unsupervised learning algorithms |
+
+**Note**: It's crucial not to blindly pursue the latest versions; for example, upgrading scikit-learn to a newer version might result in compatibility issues and prevent it from running properly.
+
+## 1.3 Runtime Environment
+
+The minimum hardware requirements for running this software are as follows:
+
+| Configuration Item | Minimum Requirement |
+|--------------------|---------------------|
+| Processor          | 2 GHz or faster processor |
+| RAM (Memory)       | 4 GB or more         |
+| Available Hard Disk Space | 1 GB or more |
+| Display Resolution    | 1920 x 1080 pixels      |
+
+This software, combining PySide6 and BeeWare, is designed for developing cross-platform GUI applications: leveraging PySide6 for building interfaces and using BeeWare's Briefcase for one-click packaging and execution. This approach ensures that the application runs natively on several mainstream operating systems such as Windows and GNU/Linux distributions.
+
+## Recommended Operating Systems for Running the Software
+
+The following table outlines the recommended operating systems and their respective version requirements:
+
+| Operating System | Version | Architecture | Minimum Version Requirement | Recommended Version |
+|------------------|---------|-------------|------------------------------|---------------------|
+| Windows          | 10      | x64         | 10                           | 11                  |
+| GNU/Linux            | Ubuntu   | x64         | Ubuntu 20.04                 | Ubuntu 22.04        |
 
 ## 1 Installation
 

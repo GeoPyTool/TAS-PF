@@ -1,7 +1,12 @@
 """
-TAS Diagram extended with Probabilistic Field
+TAS-PF
+TAS Diagram extended with Probabilistic Field. 
+一个利用概率场扩展的TAS图解软件。
+版本号：1.0.0
 """
 # 导入所需的库
+import pkg_resources
+import types
 import json  # 用于处理JSON数据
 import pickle  # 用于序列化和反序列化Python对象结构
 import sqlite3  # 用于SQLite数据库操作
@@ -915,6 +920,8 @@ class TAS_Extended(QMainWindow):
 # 定义主函数：main
 # 功能：初始化应用程序并启动主窗口
 
+
+
 def main():
     # 注释：Linux桌面环境通过应用的.desktop文件将应用集成到其应用菜单中。此应用的.desktop文件包含了StartupWMClass键，设置为应用的正式名称，这有助于将应用窗口与其菜单项关联起来。
     #
@@ -937,6 +944,7 @@ def main():
 
 # 检查当前模块是否为程序入口点（即直接执行的脚本）
 if __name__ == '__main__':
+
     # 创建一个QApplication实例，用于管理图形用户界面应用程序
     app = QApplication(sys.argv)
 
@@ -948,3 +956,5 @@ if __name__ == '__main__':
 
     # 启动应用程序的事件循环。当事件循环结束时（例如用户关闭窗口或调用quit()方法），返回退出状态码
     sys.exit(app.exec())  # 此处的app.exec_()方法是Qt应用中启动并运行整个应用程序的关键步骤
+
+
