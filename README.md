@@ -145,6 +145,11 @@ Just select a CSV or Excel file and it will be loaded to the left part of the Ap
 
 #### Plot Data and Export Result
 
+When the data loaded, you may just click the `Plot Data` to do the plot and click the `Export Result` to pop up the CLassification Results. 
+
+![](./images/run_plot_export.jpg)
+
+The process should be so instinctive that you can figure it out very simply by exploring it.
 
 #### Save the Result
 
@@ -152,23 +157,44 @@ Just select a CSV or Excel file and it will be loaded to the left part of the Ap
 
 The generated result can be added to the original data and exported as similare data file shown like [/data_samples/TAS_Result.csv](./data_samples/TAS_Result.csv)
 
-### Traditional Diagram
+### Switched and Effects
+
+On the GUI, there are several switched shwon below, and the effects are also very easy to figure out.
+
+![](./images/run_switches.jpg)
+
+The effects are shown as pictures below.
+
+##### Traditional Diagram
 
 ![](./images/TAS-PF-Traditional.jpg)
 
-### VOL with Probabilistic Field
+##### VOL with Probabilistic Field
 
 ![](./images/TAS-PF-VOL.jpg)
 
-### PLU with Probabilistic Field
+##### PLU with Probabilistic Field
 
 ![](./images/TAS-PF-PLU.jpg)
 
-### VOL with No Lines
+##### VOL with No Lines
 
 ![](./images/TAS-PF-VOL-Nolines.jpg)
 
-### PLU with No Lines
+##### PLU with No Lines
 
 ![](./images/TAS-PF-PLU-Nolines.jpg)
+
+### Save the Plot
+
+When you get satisfied with your plots, you can save it clicking the `Save Plot`.
+
+![](./images/run_save_figure.jpg)
+
+The plot can be save as bitmap files like PNG or JPG, and vector graphic files such like SVG or PDF.
+
+
+## Acknowledgements
+
+This project was born out of the inspiration of the late Dr. Li Jie(李解). Dr. Li was my classmate, we knew each other for more than 10 years, we used to install computers, learn programming, write software, discuss academic issues, etc. In 2023, Dr. Li died of an illness shortly after his graduation. He once criticized the idea of categorical boundaries in my early projects, which I never thought of a good way to solve. I was thinking of collaborating with him to improve it, but he has passed away. Later on, I supplemented the classification boundary idea by constructing probability fields, thus this project.
 
