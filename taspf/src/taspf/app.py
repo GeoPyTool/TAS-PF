@@ -374,7 +374,8 @@ class TAS_Extended(QMainWindow):
         # 改变当前工作目录
         os.chdir(current_directory)
 
-        with open('tas_cord.json') as file:
+        # 从'tas_cord.json'文件中加载数据
+        with open('tas_cord.json', 'r', encoding='utf-8') as file:
             cord = json.load(file)
         self.tas_cord = cord
         # 绘制TAS图解边界线条

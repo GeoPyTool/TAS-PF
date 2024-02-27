@@ -535,7 +535,7 @@ class TAS_Extended(QMainWindow):
         os.chdir(current_directory)
 
         # 从'tas_cord.json'文件中加载数据
-        with open('tas_cord.json') as file:
+        with open('tas_cord.json', 'r', encoding='utf-8') as file:
             cord = json.load(file)
         # 将读取的边界线条数据存储到类实例变量self.tas_cord中
         self.tas_cord = cord
