@@ -513,7 +513,8 @@ class TAS_Extended(QMainWindow):
                 })
 
                 # 按照'label'列进行分组，然后对每个组应用plot_group函数
-                df.groupby('label').apply(plot_group)
+                # df.groupby('label').apply(plot_group)
+                df.groupby('label')[['x', 'y', 'color', 'alpha', 'size', 'marker']].apply(plot_group)
                 
             except KeyError:
                 pass
