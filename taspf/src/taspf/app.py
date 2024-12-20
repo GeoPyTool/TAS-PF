@@ -439,6 +439,7 @@ class TAS_Extended(QMainWindow):
             os.chdir(current_directory)
 
             # Load the Figure
+            print(pkl_filename)
             with open(pkl_filename, 'rb') as f:
                 fig = pickle.load(f)
                 # print('fig loaded')
