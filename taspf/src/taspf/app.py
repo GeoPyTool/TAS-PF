@@ -487,16 +487,35 @@ class TAS_Extended(QMainWindow):
                 for child in ax.get_children():
                     # 检查这个子对象是否是一个散点图的集合
                     if isinstance(child, collections.PathCollection):
+                        # # 获取当前透明度
+                        # current_alpha = child.get_alpha()
+                        # # 获取数据点的数量
+                        # num_points = child.get_sizes().size
+                        # # 根据当前透明度和数据点的数量设置新的透明度
+                        # if current_alpha is not None:
+                        #     if num_points <1000:  # 如果数据点的数量大于100
+                        #         child.set_alpha(min(current_alpha * 2, 0.3))  # 提高透明度，但不超过1
+                        #     elif num_points >3000:  # 如果数据点的数量小于50
+                        #         child.set_alpha(max(current_alpha / 2, 0.005))  # 降低透明度，但不低于0.01
+
+
                         # 获取当前透明度
                         current_alpha = child.get_alpha()
                         # 获取数据点的数量
                         num_points = child.get_sizes().size
                         # 根据当前透明度和数据点的数量设置新的透明度
                         if current_alpha is not None:
-                            if num_points <1000:  # 如果数据点的数量大于100
-                                child.set_alpha(min(current_alpha * 2, 0.3))  # 提高透明度，但不超过1
-                            elif num_points >3000:  # 如果数据点的数量小于50
-                                child.set_alpha(max(current_alpha / 2, 0.005))  # 降低透明度，但不低于0.01
+                            if num_points < 1000:  # 如果数据点的数量小于1000
+                                if isinstance(current_alpha, (list, np.ndarray)):
+                                    current_alpha = [min(alpha * 2, 0.3) for alpha in current_alpha]
+                                else:
+                                    current_alpha = min(current_alpha * 2, 0.3)
+                            elif num_points > 3000:  # 如果数据点的数量大于3000
+                                if isinstance(current_alpha, (list, np.ndarray)):
+                                    current_alpha = [max(alpha / 2, 0.005) for alpha in current_alpha]
+                                else:
+                                    current_alpha = max(current_alpha / 2, 0.005)
+                            child.set_alpha(current_alpha)
 
                 def plot_group(group):
                     ax.scatter(group['x'], group['y'], c=group['color'], alpha=group['alpha'], s=group['size'], label=group.name,edgecolors='black')
